@@ -1,0 +1,112 @@
+.header {
+  font-weight: 900;
+  font-size: 2rem;
+  color: ghostwhite;
+}
+.drop {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 15%;
+}
+.dragger {
+  width: 50px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: right;
+}
+.footer h3 {
+  color: ghostwhite;
+  margin-right: 30px;
+  padding: 5px;
+}
+.footer h3:hover {
+  color: #2980b9;
+  cursor: pointer;
+}
+.container {
+  margin-top: 2%;
+}
+.visc {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+.visc p {
+  font-size: 1.4rem;
+  border: none;
+}
+.visc span {
+  font-weight: 900;
+}
+.visc {
+  height: 100%;
+  border: none;
+  background-color: white;
+}
+.visc h1 {
+  font-size: 1.6rem;
+}
+.visc button {
+  font-size: 2rem;
+  padding: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 8px;
+  color: ghostwhite;
+  background: black;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.visc button:hover {
+  background-color: white;
+  color: black;
+}
+.piec {
+  padding-bottom: 3%;
+}
+.pie h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 800;
+}
+.pie {
+  justify-content: center;
+  align-items: center;
+}
+.docs {
+  margin-top: 4%;
+}
+.docsc {
+  margin-bottom: 2%;
+}
+.docs h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.docs h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.7rem;
+  border-left: 2px solid black;
+  padding-left: 15px;
+}
+.docs p {
+  font-family: "Gentium Basic", serif;
+  line-height: 1.5rem;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+.docs span {
+  padding-right: 10px;
+}
+.docn {
+  color: ghostwhite;
+  float: right;
+  font-size: 1rem;
+}
