@@ -100,7 +100,7 @@ export default class Example extends React.Component {
   }
   render() {
     var { data } = this.state;
-    const { drawMode, data, colorType } = this.state;
+    const { drawMode, colorType } = this.state;
     const markSeriesProps = {
       animation: true,
       className: "mark-series-example",
