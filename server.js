@@ -14,7 +14,7 @@ var loc;
 //server
 var port = process.env.PORT || 8888;
 app.listen(port, console.log("server is running at :", port));
-app.use(express.static(`{$__dirname}/client/build`)));
+app.use(express.static(`{$__dirname}/client/build`));
 app.get("/", (req, res) => {
   res.send(index.html);
 });
